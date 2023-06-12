@@ -56,19 +56,21 @@
         </h2>
         Social Media App made in Python - <a href="https://www.google.com" target="_blank">code</a> | <a href="https://www.google.com" target="_blank">deployed</a>
     </div>
-    <div>
-        <h2>Contact Me</h2>
-        Name: <input type="text" name="name">
-        Email: <input type="email" name="email">
-        <br>
-        <br>
+    <form action="/process" method="post">
         <div>
-            Message: <textarea name="message" cols="30" rows="3"></textarea>
+            <h2>Contact Me</h2>
+            Name: <input type="text" name="name">
+            Email: <input type="email" name="email">
+            <br>
+            <br>
+            <div>
+                Message: <textarea name="message" cols="30" rows="3"></textarea>
+            </div>
+            <div>
+                <input type="button" name="send_message" value="Send Message">
+            </div>
         </div>
-        <div>
-            <input type="button" name="send_message" value="Send Message">
-        </div>
-    </div>
+    </form>
 
 
 </body>
